@@ -51,9 +51,15 @@ namespace ConsoleApplication1
         
         static void Main(string[] args)
         {
+            Animal spot = new Animal(15, 10, "Spot", "Woof");
             
+            Console.WriteLine("{0} says {1}", spot name, spot sound);
+            
+            Console.WriteLine("Number of Animals " + Animal.getNumOfAnimals());
+            
+            Console.WriteLine(spot.toString());
             
   
         }
-     }
+    }
 }
