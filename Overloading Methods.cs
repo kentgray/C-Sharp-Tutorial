@@ -79,6 +79,20 @@ namespace ConsoleApplication1
                 sound = "Grrr"                            
             };
             
+            class Dog: Animal
+            {
+                public string favFood {get; set;}
+                
+                public Dog() : base()
+                {
+                    this.favFood = "No Favorite Food";                    
+                }                    
+                
+                public Dog(double height, double weight, string name, string sound, string favFood) : base (height, weight, name, sound)
+                {
+                    this.favFood = favFood;
+                }
+            }
   
         }
     }
