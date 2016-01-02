@@ -34,7 +34,16 @@ namespace ConsoleApplication1
             this.weight = weight;
             this.name = name;
             this.sound = sound;
+            numOfAnimals++;
         }
+        
+        static int numOfAnimals = 0;
+        
+        public static int getNumOfAnimals()
+        {
+            return numOfAnimals;
+        }
+        
         
         static void Main(string[] args)
         {
