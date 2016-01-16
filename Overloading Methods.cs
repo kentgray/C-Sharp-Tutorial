@@ -67,6 +67,7 @@ namespace ConsoleApplication1
             
             Console.WriteLine("Number of Animals " + Animal.getNumOfAnimals());
             
+            
             Console.WriteLine(spot.toString());
             
             Console.WriteLine(spot.getSum(num2: 1.4,2.7));
